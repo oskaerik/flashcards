@@ -1,5 +1,5 @@
 # flashcards
-A simple flash card application written in Python 3.
+This is a simple flash card application written in Python 3.
 
 ## How to use
 Run the command `python3 flashcards.py <relative path to data>`
