@@ -1,4 +1,4 @@
-# Flash Cards by Oskar Eriksson
+# flashcards by Oskar Eriksson
 
 import sys
 
@@ -13,6 +13,7 @@ def main():
     """Main function of the Flash Cards program"""
     lines = get_lines(sys.argv[1])
     cards = make_cards(lines)
+    
 
 def get_lines(path):
     """Reads file and returns list of lines"""

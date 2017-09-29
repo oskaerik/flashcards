@@ -1,4 +1,4 @@
------ FLASH CARDS -----
+----- flashcards -----
 Usage: Run the command 'python3 flashcards.py <relative path to data>'
 
 The following is an example data file. Questions are placed on the first
