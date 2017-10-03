@@ -2,10 +2,11 @@
 This is a simple flash card application written in Python 3.
 
 ## How to use
-Run the command `python3 flashcards.py <relative path to data>`
+Execute the command `python3 flashcards.py <relative path to data>`
 
-The following is an example data file. Questions are placed on the first
-line, hints on the second line and answers on the third line:
+Below is an example data file. Questions are placed on the first
+line, hints on the second line and answers on the third line.
+Additional newlines and lines beginning with `#` are ignored.
 
 ```
 How many prime numbers are smaller than 4?
