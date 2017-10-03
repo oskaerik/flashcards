@@ -53,7 +53,7 @@ def make_cards(lines):
     """Creates a list of Card objects from the input lines"""
     cards = list()
     while len(lines) >= 3:
-        if not lines[0]:
+        if not lines[0] or lines[0][0] == '#':
             lines.pop(0)
             continue
         else:
