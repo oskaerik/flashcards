@@ -26,6 +26,8 @@ def main():
             action = get_action("Type 'h' for a hint or 'a' for the answer: ")
             if (action == 'h'):
                 print(card.hint)
+                get_action("Type 'a' for the answer: ")
+                print(card.answer)
             else:
                 print(card.answer)
             # Second action, successful/not successful
