@@ -31,7 +31,7 @@ def main():
             else:
                 print(card.answer)
             # Second action, successful/not successful
-            action = get_action("Type 'y' if you were successful and 'n' otherwise: ")
+            action = get_action("Type 'y' if you were successful or 'n' otherwise: ")
             if (action == 'y'):
                 successful.append(card)
             else:
