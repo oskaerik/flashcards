@@ -18,6 +18,7 @@ def main():
     cards = make_cards(lines)
     # Display all flash cards
     while len(cards) > 0:
+        print("Remaining questions: " + str(len(cards)))
         card = cards.pop(random.randrange(0, len(cards)))
         print(card.question)
         # First action, get hint or display answer
