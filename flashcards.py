@@ -24,11 +24,11 @@ def main():
         # First action, get hint or display answer
         action = get_action("Press enter for the answer or type 'h' for a hint... ")
         if (action == 'h'):
-            print(card.hint)
+            print("\n" + card.hint)
             get_action("Press enter for the answer... ")
-            print(card.answer)
+            print("\n" + card.answer)
         else:
-            print(card.answer)
+            print("\n" + card.answer)
         # Second action, successful or not successful
         action = get_action("Press enter if you were successful or type 'n' otherwise... ")
         if (action == 'n'):
